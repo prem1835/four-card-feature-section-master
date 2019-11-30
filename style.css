@@ -1,0 +1,86 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 3rem;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #eee;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.heading-1 {
+    width: 440px;
+}
+
+span {
+    display: block;
+}
+
+.heading-para {
+    width: 500px;
+}
+
+.card-all {
+    padding: 32px;
+    background-color: white;
+    border-top: 5px solid;
+    border-radius: 10px;
+    box-shadow: 7px 8px 4px rgba(0, 0, 0, .3);
+    max-width: 22%;
+    width: 100%;
+    position: absolute;
+}
+
+.container-2 {
+    position: relative;
+}
+
+.img {
+    float: right;
+}
+
+.card-1 {
+    border-color: hsl(180, 62%, 55%);
+    top: 150px;
+    left: 50px;
+}
+
+.card-2 {
+    border-color: hsl(0, 78%, 62%);
+    top: 0;
+    left: 35%;
+}
+
+.card-3 {
+    border-color: hsl(34, 97%, 64%);
+    top: 250px;
+    left: 35%;
+}
+
+.card-4 {
+    border-color: hsl(212, 86%, 64%);
+    top: 150px;
+    right: 80px;
+}
+
+.container-main {
+    max-width: 100%;
+    width: 100%;
+}
